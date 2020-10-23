@@ -4,12 +4,12 @@
 
 
         protected function obtener_vistas_models($vistas){
-            $listaBlanca=["home","proveedores","clientes","bancos",
+            $listaBlanca=["home","proveedores","clientes","bancos","cheques",
             "cuentasBancarias","monedas","articulos","registroInventario",
             "almacen","informeInventario","solicitarCompra","ordenCompra",
-            "registrarCompra","informeComrpas","registrarPedido",
+            "registrarCompra","informeCompras","registrarPedido",
             "facturacion","informeVentas","cuentasCobrar","cobranzas",
-            "infomeCobranzas","cuentasPagar","ordenPago","informePago",
+            "informeCobranzas","cuentasPagar","ordenPago","informePago",
             "controlUsuario","configuracion","cerrarSesion"];
 
         if(in_array($vistas, $listaBlanca)){
