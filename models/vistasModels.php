@@ -12,7 +12,6 @@
             "infomeCobranzas","cuentasPagar","ordenPago","informePago",
             "controlUsuario","configuracion","cerrarSesion"];
 
-
         if(in_array($vistas, $listaBlanca)){
             if(is_file("./views/contenido/".$vistas."-views.php")){
                 $contenido="./views/contenido/".$vistas."-views.php";
@@ -27,5 +26,5 @@
             $contenido="login";
         }
         return $contenido;
-        }
     }
+}
