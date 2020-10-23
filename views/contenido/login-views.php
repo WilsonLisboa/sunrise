@@ -1,5 +1,5 @@
 
-<body class="hold-transition login-page">
+<div class="login-centrar">
 <div class="login-box">
   <div class="login-logo">
     <a href="login.html"><b>Sunrise</b>SOFT</a>
@@ -48,7 +48,5 @@
     </div>
     <!-- /.login-card-body -->
   </div>
-</div>
-
-</body>
+</div></div>
 </html>

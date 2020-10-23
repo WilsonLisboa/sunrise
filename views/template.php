@@ -5,7 +5,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <?php include "modules/head.php"; ?> <!-- Modulo de Head -->
 
-<body class="hold-transition sidebar-mini login-page">
+<body class="hold-transition sidebar-mini">
 
   <?php 
   
