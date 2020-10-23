@@ -11866,7 +11866,7 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
 }
 
 .nav-sidebar .menu-open > .nav-treeview {
-  display: block;
+  display: none;
 }
 
 .nav-sidebar .menu-open > .nav-link i.right {

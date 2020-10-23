@@ -1,8 +1,8 @@
 
-<div class="login-centrar">
+<div class="login-centrar fondo-login">
 <div class="login-box">
   <div class="login-logo">
-    <a href="login.html"><b>Sunrise</b>SOFT</a>
+    <a href="login-views-php"><b class="fuente-login">Sunrise</b>SOFT</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">

@@ -34,3 +34,9 @@ aside{
     -ms-flex-pack: center;
     justify-content: center;
 }
+.fondo-login {
+    background-color: #1f1f1f;
+}
+.fuente-login {
+    color: #e9ecef !important;
+}
