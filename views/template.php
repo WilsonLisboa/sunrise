@@ -27,7 +27,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <?php include "modules/navegacion.php";?>
 
   <!-- Content Wrapper. Contains page content -->
-  <?php include "modules/breadchrome.php";?>
+  <?php include "modules/breadcrumbs.php";?>
     <!-- /.content-header -->
 
     <!-- Main content -->

@@ -1,5 +1,5 @@
 <?php
-#------------ MANEJO DE VISTAS -----------#
+#------------ MANEJO DE VISTAS y LISTAS BLANCAS DE URL -----------#
     class vistasModels {
 
 

@@ -10,7 +10,7 @@
         }
 
 
-
+        // Funcion para obtener la URL que viene por la variable views declarada en .htaccess
         public function obtener_vitas_controllers(){
             if(isset($_GET['views'])){
                 $ruta=explode("/", $_GET['views']);
