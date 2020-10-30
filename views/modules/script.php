@@ -4,11 +4,14 @@
 <script src="<?php echo SERVERURL;?>/js/bootstrap.bundle.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo SERVERURL;?>/js/adminlte.js"></script>
-<!-- DataTables -->
-<script src="<?php echo SERVERURL;?>/js/jquery.dataTables.js"></script>
+<!-- DataTables de AdminLTE -->
+<!-- <script src="<?php echo SERVERURL;?>/js/jquery.dataTables.js"></script>
 <script src="<?php echo SERVERURL;?>/js/dataTables.bootstrap4.js"></script>
 <script src="<?php echo SERVERURL;?>/js/dataTables.responsive.js"></script>
-<script src="<?php echo SERVERURL;?>/js/responsive.bootstrap4.js"></script>
+<script src="<?php echo SERVERURL;?>/js/responsive.bootstrap4.js"></script> -->
+
+<!-- Login Script -->
+<script src="<?php echo SERVERURL;?>/js/loginJS.js"></script>
 
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo SERVERURL;?>dist/js/demo.js"></script>

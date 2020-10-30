@@ -1,52 +1,37 @@
+<!-- Login Styles -->
+<link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/loginStyles.css">
 
-<div class="login-centrar fondo-login">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="login-views-php"><b class="fuente-login">Sunrise</b>SOFT</a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="card">
-    <div class="card-body login-card-body">
-      <p class="login-box-msg">Coloca tus credenciales para iniciar sesion</p>
+<div id="login-button">
+  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+  </img>
+</div>
+<div id="container">
+  <h1>Log In</h1>
+  <span class="close-btn">
+    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+  </span>
 
-      <form action="../../index3.html" method="post">
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Usuario">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <ion-icon name="person-circle"></ion-icon>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Contraseña">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <ion-icon name="key"></ion-icon>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Recuerdame
-              </label>
-            </div>
-          </div>
-          <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Iniciar</button>
-          </div>
-          <!-- /.col -->
-        </div>
-      </form>
-
-      <!-- /.social-auth-links -->
-
+  <form>
+    <input type="email" name="email" placeholder="E-mail">
+    <input type="password" name="pass" placeholder="Password">
+    <a href="#">Log in</a>
+    <div id="remember-container">
+      <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
+      <span id="remember">Remember me</span>
+      <span id="forgotten">Forgotten password</span>
     </div>
-    <!-- /.login-card-body -->
-  </div>
-</div></div>
-</html>
+</form>
+</div>
+
+<!-- Forgotten Password Container -->
+<div id="forgotten-container">
+   <h1>Forgotten</h1>
+  <span class="close-btn">
+    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+  </span>
+
+  <form>
+    <input type="email" name="email" placeholder="E-mail">
+    <a href="#" class="orange-btn">Get new password</a>
+</form>
+</div>

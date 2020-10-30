@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/adminlte.css">
   <!-- icheck bootstrap -->
   <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/icheck-bootstrap.css">
-  <!-- DataTables -->
-  <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/responsive.bootstrap4.css">
+  <!-- DataTables Script de -->
+  <!-- <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="<?php echo SERVERURL;?>/styles/responsive.bootstrap4.css"> -->
+
 
 
   <!-- Ionicons -->

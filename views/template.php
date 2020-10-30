@@ -1,5 +1,6 @@
+
 <?php
-  session_star();
+  // session_star();
   $peticionAjax=false;
 ?>
 <!DOCTYPE html>
@@ -34,8 +35,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <?php include "modules/breadcrumbs.php";?>
     <!-- /.content-header -->
 
-    <!-- Main content -->
+  <!-- CONTENIDO main content -->
+  <!-- --------------------------------------------------------------------------- -->
+
    <?php require_once $vistasR; ?>
+
+   <!-- -------------------------------------------------------------------------- -->
 
   <!-- Control Sidebar -->
   <?php include "modules/chat.php";?>
