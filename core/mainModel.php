@@ -5,9 +5,6 @@
         require_once "./core/configAPP.php";
     }
 
-    // define('METHOD', 'AES-256-CBC');
-    // define('SECRET_KEY','#Will');
-    // define('SECRET_IV','5018156643319');
     class mainModel{
 
         // funcion para conectar a la base de datos
@@ -32,8 +29,6 @@
         //     return $output;
         // }
 
-
-
         // Metodo de encriptacion BlowFish con Password Default
         public function encryption($string){
             $hash = password_hash($string, PASSWORD_DEFAULT, ['cost' => 10]);
@@ -54,5 +49,12 @@
                 $validate = false;
             }
             return $validate;
+        }
+        protected function generar_codigo_aleatorio($letra, $long, $num){
+            for($i=1; $i<=$long; $i++){
+                $num = rand(0,9);
+                $letra.=$num;
+            }
+            return $letra.$num;
         }
     }
