@@ -1,0 +1,22 @@
+{
+  "name": "sunrise",
+  "version": "1.0.0",
+  "description": "# hace un tema ligth y otro dark -- ligth letras negras fondo blanco y Dark letras blancas y fondo #1f1f1f o Gris claro / # en Dark dejar barra superior en blanco para hacer contraste ver muestra en https://magdeleine.co/browse/ # ventanas emergentes # desarrollar un sistema web empresarial por pais, donde selecciones tu pais y cargue tus leyes e impuestos - sistema de pago obviamente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilsonLisboa/sunrise.git"
+  },
+  "author": "Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilsonLisboa/sunrise/issues"
+  },
+  "homepage": "https://github.com/WilsonLisboa/sunrise#readme",
+  "dependencies": {
+    "sweetalert2": "^10.9.0"
+  }
+}

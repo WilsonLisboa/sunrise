@@ -82,6 +82,48 @@
             $cadena=str_ireplace(")", "", $cadena);
             $cadena=str_ireplace("$", "", $cadena);
             $cadena=str_ireplace("==", "", $cadena);
+            $cadena=str_ireplace("^", "", $cadena);
             return $cadena;
+        }
+        // -------------------------------------------------------------------------------------
+        // Funcion para mostrar alertas emergentes con sweetalert2
+        protected function sweet_alert($datos){ /* muestra ventana emergente con alerta */
+            if($datos['Alerta']=="simple"){
+                $alerta="
+                    <script>
+                        Swal.fire(
+                        '".$datos['Titulo']."',
+                        '".$datos['Texto']."',
+                        '".$datos['Tipo']."'
+                        );
+                    </script>
+                ";
+            }elseif($datos['Alerta']=="recarga"){ /* muestra ventana emergente que recarga la pagina */
+                $alerta="
+                    <script>
+                        Swal.fire({
+                        title: '".$datos['Titulo']."',
+                        text: '".$datos['Texto']."',
+                        icon: '".$datos['Tipo']."',
+                        confirmButtonText: 'Aceptar'
+                      }).then((result) => {
+                        location.reload();
+                      });
+                    </script>
+                ";
+            }elseif($datos['Alerta']=="limpiar"){ /* meustra ventana emergente que elimina texto del formulario */
+                $alerta="
+                    <script>
+                        Swal.fire({
+                        title: '".$datos['Titulo']."',
+                        text: '".$datos['Texto']."',
+                        icon: '".$datos['Tipo']."',
+                        confirmButtonText: 'Aceptar'
+                      }).then((result) => {
+                            $('.FormularioAjax')[0].reset();
+                      });
+                    </script>
+                ";
+            }
         }
     }
