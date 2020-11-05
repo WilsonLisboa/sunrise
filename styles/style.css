@@ -40,3 +40,54 @@ aside{
 .fuente-login {
     color: #e9ecef !important;
 }
+
+.error-pagee {
+    margin: 20px auto 0;
+    width: 600px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .error-pagee {
+      width: 100%;
+    }
+  }
+  
+  .error-pagee > .headlinee {
+    float: left;
+    font-size: 100px;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 767.98px) {
+    .error-pagee > .headlinee {
+      float: none;
+      text-align: center;
+    }
+  }
+  
+  .error-pagee > .error-contentt {
+    display: block;
+    margin-left: 190px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .error-pagee > .error-contentt {
+      margin-left: 0;
+    }
+  }
+  
+  .error-pagee > .error-contentt > h3 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 767.98px) {
+    .error-pagee > .error-contentt > h3 {
+      text-align: center;
+    }
+  }
+  .error {
+      justify-content: center !important;
+      align-items: center !important;
+      display: flex !important;
+  }

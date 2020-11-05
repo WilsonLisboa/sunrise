@@ -1,8 +1,3 @@
-
-<?php
-  // session_star();
-  $peticionAjax=false;
-?>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -13,15 +8,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <body class="hold-transition sidebar-mini">
 
   <?php 
-  
+    
+    $peticionAjax=false;
+
     require_once "./controllers/vistasControllers.php";
 
     $vt = new vistasControllers();
     $vistasR=$vt -> obtener_vitas_controllers();
 
-    if($vistasR=="login"):
-      require_once "./views/contenido/login-views.php";
+    if($vistasR=="login" || $vistasR=="error404"):
+      if($vistasR=="login"){
+        require_once "./views/contenido/login-views.php";
+      }else{
+        require_once "./views/contenido/error404-views.php";
+      }
     else:
+      // session_star();
   ?>
 
   <!-- Navbar -->

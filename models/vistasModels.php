@@ -23,7 +23,7 @@
         }elseif($vistas=="index"){
             $contenido="login";
         }else{
-            $contenido="login";
+            $contenido="error404";
         }
         return $contenido;
     }

@@ -125,5 +125,6 @@
                     </script>
                 ";
             }
+            return $alerta;
         }
     }
